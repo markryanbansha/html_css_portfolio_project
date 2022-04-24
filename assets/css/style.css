@@ -167,7 +167,11 @@ h1, h2 {
     text-align: center;
 }
 
-#bike-hire {
+#locations p {
+    text-align: center;
+}
+
+#locations-image{
     height: 600px;
     width: 25%;
     float: left;
@@ -180,4 +184,32 @@ footer {
     height: 150px;
     background-color: #252525;
     color: #fff;
+}
+
+footer h3 {
+    font-family: Russo One, sans-serif;
+    font-size: 160%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#contact-info {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#social-media {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#social-media li {
+    display: inline;
+}
+
+#social-media i {
+    color: #fff;
+    font-size: large;
+    padding-top: 1%;
+    padding-left: 5%;
 }
