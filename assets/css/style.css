@@ -134,6 +134,7 @@ h1, h2 {
 
 #description p {
     padding-top: 30px;
+    text-align: center;
 }
 
 /* information section */
@@ -145,7 +146,22 @@ h1, h2 {
     padding-top: 30px;
     width: 50%;
     float: left;
+    color: #fff;
     background-color: #252525;
+}
+
+#locations h2 {
+    padding-top: 30px;
+    font-size: 130%;
+    text-align: center;
+    color: #fff;
+}
+
+#locations table {
+    
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 }
 
 #bike-hire {
