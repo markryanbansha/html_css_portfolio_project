@@ -69,6 +69,12 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: absolute;
+}
+
+#cover-text, #cover-text h2 {
+    color: #252525;
 }
 
 #hero-image {
@@ -90,4 +96,25 @@ h1, h2 {
     to{
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Russo One, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    
+    width: 600px;
+    height: 150px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(210, 215, 211, .7);
+
+    bottom: 200px;
+    right: 600px;
+
+    position: absolute;
 }
