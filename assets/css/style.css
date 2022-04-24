@@ -75,4 +75,19 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url('../images/shutterstock_127383308\ \(5\).jpg') no-repeat center center;
+
+    /* zoom effect for hero image */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* zoom effect for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
