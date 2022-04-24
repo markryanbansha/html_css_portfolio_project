@@ -123,18 +123,20 @@ h1, h2 {
 /* description */
 #description {
     height: 300px;
-    background-color: #fff;
+    background-color: #252525;
 }
 
 #description h2 {
     padding-top: 30px;
     font-size: 130%;
     text-align: center;
+    color: #fff;
 }
 
 #description p {
     padding-top: 30px;
     text-align: center;
+    color: #fff;
 }
 
 /* information section */
@@ -143,18 +145,19 @@ h1, h2 {
 }
 
 #locations {
-    padding-top: 30px;
-    width: 50%;
-    float: left;
-    color: #fff;
-    background-color: #252525;
+    height: 600px;
+    
+    width: 75%;
+    float: right;
+    color: #252525;
+    background-color: #fff;
 }
 
 #locations h2 {
     padding-top: 30px;
     font-size: 130%;
     text-align: center;
-    color: #fff;
+    color: #252525;
 }
 
 #locations table {
@@ -165,8 +168,16 @@ h1, h2 {
 }
 
 #bike-hire {
-    padding-top: 30px;
-    width: 50%;
-    float: right;
-    background: url('../images/shutterstock_1233332137\ \(1\).jpg') no-repeat center center;
+    height: 600px;
+    width: 25%;
+    float: left;
+    background: url('../images/shutterstock_1233332137\ \(1\).jpg') no-repeat;
+}
+
+
+/* footer */
+footer {
+    height: 150px;
+    background-color: #252525;
+    color: #fff;
 }
