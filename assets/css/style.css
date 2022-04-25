@@ -146,7 +146,6 @@ h1, h2 {
 
 #locations {
     height: 600px;
-    
     width: 75%;
     float: right;
     color: #252525;
@@ -217,5 +216,68 @@ footer h3 {
 /* locations.html */
 
 #locations-heading {
-    height: 75px;
+    height: 100px;
+}
+
+#locations-heading h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 280%;
+}
+
+#circle-container-bansha-woods {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg-bansha-woods {
+    background: url('../images/shutterstock_1233332137\ \(1\).jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* bansha woods */
+
+#bansha-woods {
+    height: 300px;
+    padding-top: 30px;
+    background-color: #252525;
+}
+
+#bansha-woods-image {
+    height: 300px;
+    width: 25%;
+    float: left;
+}
+
+#bansha-woods-info {
+    height: 300px;
+    width: 75%;
+    float: right;
+    color: #fff;
+    background-color: #252525;
+}
+
+#bansha-woods-info h2 {
+    color: #fff;
+    text-align: center;
+}
+
+#info-brief {
+    padding-top: 30px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+#info-more {
+    padding-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
