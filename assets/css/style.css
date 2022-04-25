@@ -213,3 +213,9 @@ footer h3 {
     padding-top: 1%;
     padding-left: 5%;
 }
+
+/* locations.html */
+
+#locations-heading {
+    height: 75px;
+}
