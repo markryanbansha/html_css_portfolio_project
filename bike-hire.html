@@ -30,6 +30,40 @@
         </nav>
     </header>
     
+    <section class="bike-hire-form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="bike-hire-form">
+            <h2>Pre-Book your bike here <i class="fas fa-biking"></i></h2>
+            
+            <label for="fname">First Name:</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name:</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" class="text-input" id="email" name="email_address" required>
+            
+            <label for="location">Choose Location:</label>
+            <input class="text-input" id="location" list="locations" name="choose_location" required>
+            <datalist id="locations">
+                <option value="Bansha Woods"></option>
+                <option value="Ballyhouras"></option>
+                <option value="Comeragh Mountains"></option>
+            </datalist>
+
+            <label for="brand">Choose the brand you would like:</label>
+            <br>
+            <label for="giant">Giant </label>
+            <input type="radio" id="giant" name="bike_preference" value="giant" required>
+            <label for="duke">Duke </label>
+            <input type="radio" id="duke" name="bike_preference" value="duke" required>
+            <label for="cube">Cube </label>
+            <input type="radio" id="cube" name="bike_preference" value="cube" required>
+            
+            <input class="submit-button" type="submit" value="Confirm Bike Hire!">
+        </form>
+    </section>
+
     <footer>
         <h3>Mountain Biking Munster</h3>
         <div id="contact-info">
