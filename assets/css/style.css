@@ -225,7 +225,7 @@ footer h3 {
     font-size: 280%;
 }
 
-#circle-container-bansha-woods {
+#circle-container {
     width: 200px;
     height: 200px;
     padding: 30px;
@@ -237,26 +237,36 @@ footer h3 {
 }
 
 #circle-cover-bg-bansha-woods {
-    background: url('../images/shutterstock_1233332137\ \(1\).jpg') no-repeat center center;
+    background: url('../images/shutterstock_467248559 (1).jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-/* bansha woods */
+#circle-cover-bg-ballyhouras {
+    background: url('../images/shutterstock_431067772.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
 
-#bansha-woods {
+#circle-cover-bg-comeragh {
+    background: url('../images/shutterstock_573940339.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#location {
     height: 300px;
     padding-top: 30px;
     background-color: #252525;
 }
 
-#bansha-woods-image {
+#location-image {
     height: 300px;
     width: 25%;
     float: left;
 }
 
-#bansha-woods-info {
+#location-info {
     height: 300px;
     width: 75%;
     float: right;
@@ -264,7 +274,7 @@ footer h3 {
     background-color: #252525;
 }
 
-#bansha-woods-info h2 {
+#location-info h2 {
     color: #fff;
     text-align: center;
 }
