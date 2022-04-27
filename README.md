@@ -1,6 +1,6 @@
 # Mountain Biking Munster
 
-(Include description of project)
+Mountain Biking Munster is a website designed for people interested in finding new trails for mountain biking in the province of Munster, Ireland.
 
 (Include screenshots of different screen sizes)
 
