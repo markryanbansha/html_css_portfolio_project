@@ -20,9 +20,18 @@ The header consists of two main components, a logo and a navigation bar.
 
 (include screenshot)
 
-The logo took used was created based on the knowlegde obtained during the "Love Running" walkthrough project. The font used is called Russo One, which was acquired from Google Fonts and styled on the external css file, style.css. The logo uses a font color of #fff (white) to contrast the background color of the header which is #
+The logo took used was created based on the knowlegde obtained during the "Love Running" walkthrough project. The font used is called Russo One, which was acquired from Google Fonts and styled on the external css file, style.css. The logo uses a font color of #fff (white) to contrast the background color of the header which is #252525 (charcol black).
 
 ### Navigation
+
+(include screenshot)
+
+The navigation bar was created using an unordered list, accompanied by three list items which were then made into links to all the webpages associated with the website.
+  - index.html
+  - locations.html
+  - bike-hire.html
+
+The links were styled in the external css file, style.css to ensure that the user can see the links clearly, know which link they may be about to click when hovered over and which webpage the user is on currently.
 
 (Locations)
 
