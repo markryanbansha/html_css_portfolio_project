@@ -58,3 +58,6 @@ The links were styled in the external css file, style.css to ensure that the use
 
 ## Credits
 -----
+- The design of this website took inspiration from the Love Running walkthrough project.
+- All images were sourced from shutterstock.com.
+- The information on the three locations in locations.html were sourced from the coillte website (coillte.ie).
